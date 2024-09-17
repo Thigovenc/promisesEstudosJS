@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Favorites</title>
+
+    <script src="/js/main.js" type="module" defer></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>GitHub Favorites</h1>
+            <div class="search">
+                <label class="sr-only" for="input-search">Usuario do GitHub</label>
+                <input id="input-search" type="text" placeholder="Usuario do GitHub">
+                <button>&plus;</button>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Repositorios</th>
+                    <th>Followers</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/Thigovenc.png" alt="Imagem de Thiago Venceslau">
+                        <a href="https://github.com/Thigovenc">
+                            <p>Thiago Venceslau</p>
+                            <span>Thigovenc</span>
+                        </a>
+                    </td>
+                    <td class="repositories">76</td>
+                    <td class="followers">9589</td>
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/maykbrito.png" alt="Imagem de Mayk Brito">
+                        <a href="https://github.com/maykbrito">
+                            <p>Mayk Brito</p>
+                            <span>maykbrito</span>
+                        </a>
+                    </td>
+                    <td class="repositories">76</td>
+                    <td class="followers">9589</td>
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/diego3g.png" alt="Imagem de Diego Fernandes">
+                        <a href="https://github.com/diego3g">
+                            <p>Diego Fernandes</p>
+                            <span>diego3g</span>
+                        </a>
+                    </td>
+                    <td class="repositories">76</td>
+                    <td class="followers">9589</td>
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+                
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+</body>
+</html>
